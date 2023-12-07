@@ -12,33 +12,23 @@
 
 <body>
     <div id="mainContainer">
-        <div>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Flights</a></li>
-                    <li><a href="#">Hotels</a></li>
-                    <li><a href="#">Reservation</a></li>
-                    <div class="search">
-                        <input type="text" name="search" id="search" placeholder="Search">
-                    </div>
-                </ul>
-            </nav>
+        <div id="selection">
+            <form>
+                <label for="destination">Select Destination</label>
+                <select id="Destination">
+                    <option value="" disabled selected></option>
+                </select>
+    
+                <br><br>
+    
+                <label for="source">Select Source</label>
+                <select id="Source">
+                    <option value="" disabled selected></option>
+                </select>
+            </form>
         </div>
-
-        <div id="home">
-            <img src="" alt="" width="200" height="230">
-            <h3>Book Flights</h3>
-            <p>Book best flight deals!</p>
-            <button>Click here</button>
-        </div>
-
-        <div id="flights">
-            <!-- will be added dynamically -->
-        </div>
-
-
     </div>
+    <script src="main.js"></script>
 </body>
 
 </html>
