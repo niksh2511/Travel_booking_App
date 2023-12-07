@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "flight_name": "Air India",
+        "departure": "Ahmedabad",
+        "arrival": "Delhi",
+        "depart_time": "Mon Jun 12 2023 10:28:14",
+        "arrival_time": "Mon Jun 12 2023 21:45:36",
+        "no_of_seats": 50,
+        "no_of_booked_seats": 24
+    },
+    {
+        "id": 2,
+        "flight_name": "Vistara",
+        "departure": "Mumbai",
+        "arrival": "Bangalore",
+        "depart_time": "Wed Apr 05 2023 15:12:08",
+        "arrival_time": "Fri Nov 10 2023 07:33:52",
+        "no_of_seats": 60,
+        "no_of_booked_seats": 30
+    },
+    {
+        "id": 3,
+        "flight_name": "Akasa Air",
+        "departure": "Chennai",
+        "arrival": "Kolkata",
+        "depart_time": "Sun Jan 22 2023 04:59:27",
+        "arrival_time": "Thu Jul 27 2022 12:18:03",
+        "no_of_seats": 45,
+        "no_of_booked_seats": 15
+    },
+    {
+        "id": 4,
+        "flight_name": "SpiceJet",
+        "departure": "Delhi",
+        "arrival": "Hyderabad",
+        "depart_time": "Tue Mar 14 2023 23:41:49",
+        "arrival_time": "Sun Sep 03 2023 19:07:34",
+        "no_of_seats": 55,
+        "no_of_booked_seats": 20
+    },
+    {
+        "id": 5,
+        "flight_name": "GoAir",
+        "departure": "Bangalore",
+        "arrival": "Mumbai",
+        "depart_time": "Sat Dec 30 2023 08:54:20",
+        "arrival_time": "Wed Feb 08 2023 17:26:45",
+        "no_of_seats": 48,
+        "no_of_booked_seats": 18
+    }
+]
