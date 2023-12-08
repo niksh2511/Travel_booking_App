@@ -11,24 +11,66 @@
 </head>
 
 <body>
-    <div id="mainContainer">
+    <div id="mainContainer" class="mainContainer">
+        <h1>SearchFlight</h1>
         <div id="selection">
             <form>
-                <label for="destination">Select Destination</label>
+              
+                <label for="Source">Select Source</label>
+                <select id="Source" name="source">
+                    <option value="-1" selected>All Source</option>
+                </select>
+                <div id="sourceError" class="errorMessages"></div>
+
+                <br>
+
+                <label for="Destination">Select Destination</label>
                 <select id="Destination">
-                    <option value="" disabled selected></option>
+                    <option value="-1" selected>All Destination</option>
                 </select>
-    
-                <br><br>
-    
-                <label for="source">Select Source</label>
-                <select id="Source">
-                    <option value="" disabled selected></option>
-                </select>
+                <div id="destinationError" class="errorMessages"></div>
+
+                <br>
+
+                <label for="txtSearch">
+                    Search Flights: <br><br>
+                    <input type="text" name="flight search" id="txtSearch" placeholder="Search Flights">
+                </label>
+
+                <br>
+
+                <label for="departureDate">
+                    Search Dates: <br><br>
+                    <input type="text" id="departureDate" placeholder="Search Date">
+                </label>
+
+                <br>
+
+                <Button id="searchButton">Search</Button>
+
             </form>
+            <span id="error" class="errorMessages"></span>
+
+            <br><br>
+
+            <table id="FlightList" class="flight-table">
+                <thead>
+                    <th>No. of Flights</th>
+                    <th>FlightName</th>
+                    <th>Source</th>
+                    <th>Destination</th>
+                    <th>DepartureDate</th>
+                    <th>Price</th>
+                    <th>Book Flight</th>
+                </thead>
+
+                <tbody id="flightTableBody">
+                    <!-- body content -->
+                </tbody>
+            </table>
         </div>
     </div>
-    <script src="main.js"></script>
+    <script src="searchFlight.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,88 @@
+.mainContainer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+  }
+
+.flight-table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .flight-table th, .flight-table td {
+    border: 1px solid black;
+    padding: px;
+    border-collapse: collapse;
+  }
+
+  .flight-table tr {
+    transition: background-color 0.2s;
+    padding: 8px;
+  }
+
+  .flight-table tr:hover {
+    background-color: rgb(216, 216, 216);
+  }
+
+  .flight-table th {
+    background-color: rgb(111, 163, 209);
+    border-collapse: collapse;
+    color: aliceblue;
+    padding: 10px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input, select, button {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: rgb(122, 179, 230);
+    border: 0.5px solid;
+    transition: background-color 0.2s, opacity 0.2s;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: rgb(78, 127, 170);
+  }
+
+  button:active {
+    opacity: 0.5;
+  }
+
+  .book {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    transition: width 0.2s;
+  }
+
+  .book:focus {
+    background-color: aquamarine;
+  }
+
+  .errorMessages {
+    color: red;
+  }
+
+
+
+@media only screen and (min-width: 1200px) {
+  .book {
+    width: 50%;
+  }
+}
+  
